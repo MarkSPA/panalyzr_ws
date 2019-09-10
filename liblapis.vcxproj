@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{533DAA69-7FC7-34DA-8036-4790CBC59BE4}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>liblapis</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">liblapis.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">liblapis</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">liblapis.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">liblapis</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">liblapis.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">liblapis</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">liblapis.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">liblapis</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.dll</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\..\RFCLib;D:\libusb\include\libusb-1.0;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;LAPIS_DLL_EXPORTS;RFCOMM_STATIC;ASIO_STANDALONE;MOREPH_USBONLY;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;NOMINMAX;CMAKE_INTDIR="Debug";liblapis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;LAPIS_DLL_EXPORTS;RFCOMM_STATIC;ASIO_STANDALONE;MOREPH_USBONLY;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;NOMINMAX;CMAKE_INTDIR=\"Debug\";liblapis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\..\RFCLib;D:\libusb\include\libusb-1.0;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\..\RFCLib;D:\libusb\include\libusb-1.0;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+copy /b "D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\Debug\liblapis.dll"+"D:\spa\Projects\Panalyzr\Lapis 9 6 2019\gromit.apppack" "D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\Debug\liblapis.dll"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>fmt\fmt\Debug\fmt.lib;legacy_stdio_definitions.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/spa/Projects/Panalyzr/Lapis 9 6 2019/GromitLP/Debug/liblapis.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/spa/Projects/Panalyzr/Lapis 9 6 2019/GromitLP/Debug/liblapis.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\..\RFCLib;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt;D:\spa\Projects\Panalyzr\libusb-windows_zlp\libusb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LAPIS_DLL_EXPORTS;RFCOMM_STATIC;ASIO_STANDALONE;MOREPH_USBONLY;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;NOMINMAX;CMAKE_INTDIR="Release";liblapis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LAPIS_DLL_EXPORTS;RFCOMM_STATIC;ASIO_STANDALONE;MOREPH_USBONLY;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;NOMINMAX;CMAKE_INTDIR=\"Release\";liblapis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\..\RFCLib;D:\libusb\include\libusb-1.0;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\..\RFCLib;D:\libusb\include\libusb-1.0;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+copy /b "D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\Release\liblapis.dll"+"D:\spa\Projects\Panalyzr\Lapis 9 6 2019\gromit.apppack" "D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\Release\liblapis.dll"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/spa/Projects/Panalyzr/Lapis 9 6 2019/GromitLP/Release/liblapis.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/spa/Projects/Panalyzr/Lapis 9 6 2019/GromitLP/Release/liblapis.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\..\RFCLib;D:\libusb\include\libusb-1.0;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LAPIS_DLL_EXPORTS;RFCOMM_STATIC;ASIO_STANDALONE;MOREPH_USBONLY;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;NOMINMAX;CMAKE_INTDIR="MinSizeRel";liblapis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LAPIS_DLL_EXPORTS;RFCOMM_STATIC;ASIO_STANDALONE;MOREPH_USBONLY;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\";liblapis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\..\RFCLib;D:\libusb\include\libusb-1.0;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\..\RFCLib;D:\libusb\include\libusb-1.0;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+copy /b "D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\MinSizeRel\liblapis.dll"+"D:\spa\Projects\Panalyzr\Lapis 9 6 2019\gromit.apppack" "D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\MinSizeRel\liblapis.dll"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>fmt\fmt\MinSizeRel\fmt.lib;D:\libusb\MS64\static\libusb-1.0.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/spa/Projects/Panalyzr/Lapis 9 6 2019/GromitLP/MinSizeRel/liblapis.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/spa/Projects/Panalyzr/Lapis 9 6 2019/GromitLP/MinSizeRel/liblapis.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\..\RFCLib;D:\libusb\include\libusb-1.0;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LAPIS_DLL_EXPORTS;RFCOMM_STATIC;ASIO_STANDALONE;MOREPH_USBONLY;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo";liblapis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;LAPIS_DLL_EXPORTS;RFCOMM_STATIC;ASIO_STANDALONE;MOREPH_USBONLY;_WIN32_WINNT=0x0600;WIN32_LEAN_AND_MEAN;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\";liblapis_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\..\RFCLib;D:\libusb\include\libusb-1.0;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\..\RFCLib;D:\libusb\include\libusb-1.0;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>
+      </Message>
+      <Command>setlocal
+copy /b "D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\RelWithDebInfo\liblapis.dll"+"D:\spa\Projects\Panalyzr\Lapis 9 6 2019\gromit.apppack" "D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\RelWithDebInfo\liblapis.dll"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>fmt\fmt\RelWithDebInfo\fmt.lib;D:\libusb\MS64\static\libusb-1.0.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/spa/Projects/Panalyzr/Lapis 9 6 2019/GromitLP/RelWithDebInfo/liblapis.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/spa/Projects/Panalyzr/Lapis 9 6 2019/GromitLP/RelWithDebInfo/liblapis.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/spa/Projects/Panalyzr/Lapis 9 6 2019/GromitLP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SD:/spa/Projects/Panalyzr/Lapis 9 6 2019/GromitLP" "-BD:/spa/Projects/Panalyzr/Lapis 9 6 2019/GromitLP" --check-stamp-file "D:/spa/Projects/Panalyzr/Lapis 9 6 2019/GromitLP/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\CMakeFiles\3.15.3\CMakeCCompiler.cmake;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\CMakeFiles\3.15.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/spa/Projects/Panalyzr/Lapis 9 6 2019/GromitLP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SD:/spa/Projects/Panalyzr/Lapis 9 6 2019/GromitLP" "-BD:/spa/Projects/Panalyzr/Lapis 9 6 2019/GromitLP" --check-stamp-file "D:/spa/Projects/Panalyzr/Lapis 9 6 2019/GromitLP/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\CMakeFiles\3.15.3\CMakeCCompiler.cmake;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\CMakeFiles\3.15.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/spa/Projects/Panalyzr/Lapis 9 6 2019/GromitLP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SD:/spa/Projects/Panalyzr/Lapis 9 6 2019/GromitLP" "-BD:/spa/Projects/Panalyzr/Lapis 9 6 2019/GromitLP" --check-stamp-file "D:/spa/Projects/Panalyzr/Lapis 9 6 2019/GromitLP/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\CMakeFiles\3.15.3\CMakeCCompiler.cmake;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\CMakeFiles\3.15.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/spa/Projects/Panalyzr/Lapis 9 6 2019/GromitLP/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" "-SD:/spa/Projects/Panalyzr/Lapis 9 6 2019/GromitLP" "-BD:/spa/Projects/Panalyzr/Lapis 9 6 2019/GromitLP" --check-stamp-file "D:/spa/Projects/Panalyzr/Lapis 9 6 2019/GromitLP/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckCSourceCompiles.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckIncludeFile.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\CheckLibraryExists.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\FindThreads.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.15\Modules\Platform\WindowsPaths.cmake;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\CMakeFiles\3.15.3\CMakeCCompiler.cmake;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\CMakeFiles\3.15.3\CMakeCXXCompiler.cmake;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\CMakeFiles\3.15.3\CMakeRCCompiler.cmake;D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\CMakeFiles\3.15.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\RFCLib\CRC32.cpp" />
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\RFCLib\filepackloader.cpp" />
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\RFCLib\morephtransport.cpp" />
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\RFCLib\morephsearch.cpp" />
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\RFCLib\morephtransport_impl.cpp" />
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\RFCLib\morephsearch_impl.cpp" />
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\RFCLib\memmap.cpp" />
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\RFCLib\morephinterface.cpp" />
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\gromitinterface.cpp" />
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\FPGAregs.cpp" />
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\USBdata.cpp" />
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\WhitelistMem.cpp" />
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\lapis.cpp" />
+    <None Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\gromit.apppack" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\libusb-windows_zlp\msvc\fxload_2017.vcxproj">
+      <Project>{9e166f7a-a793-9fb6-0a67-f0aed8ae8c88}</Project>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <ProjectReference Include="..\..\libusb-windows_zlp\msvc\libusb_dll_2017.vcxproj">
+      <Project>{349ee8fa-7d25-4909-aaf5-ff3fade72187}</Project>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <ProjectReference Include="fmt\fmt\fmt.vcxproj">
+      <Project>{042f08d2-0257-3d84-a9bd-0d4dbf52c333}</Project>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+    <ProjectReference Include="ZERO_CHECK.vcxproj">
+      <Project>{f200552e-759e-3c54-8360-b84e0d85f19b}</Project>
+      <LinkLibraryDependencies>true</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

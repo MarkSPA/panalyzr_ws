@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt\fmt\posix.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt\fmt\format.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt\fmt\ostream.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt\fmt\printf.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt\fmt\container.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt\fmt\format.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt\fmt\ostream.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt\fmt\printf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt\fmt\string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt\fmt\time.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt\fmt\posix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt\fmt\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt\README.rst" />
+    <None Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\thirdparty\fmt\ChangeLog.rst" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{4608D48E-A2FE-35F0-BAA7-9956FB4A885E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{43695AA8-A31D-3601-B412-9F6565397171}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

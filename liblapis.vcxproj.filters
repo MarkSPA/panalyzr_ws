@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\RFCLib\CRC32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\RFCLib\filepackloader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\RFCLib\morephtransport.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\RFCLib\morephsearch.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\RFCLib\morephtransport_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\RFCLib\morephsearch_impl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\RFCLib\memmap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\RFCLib\morephinterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\gromitinterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\FPGAregs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\USBdata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\WhitelistMem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\lapis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\GromitLP\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\spa\Projects\Panalyzr\Lapis 9 6 2019\gromit.apppack" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{43695AA8-A31D-3601-B412-9F6565397171}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

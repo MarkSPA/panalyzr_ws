@@ -1,0 +1,7 @@
+# CMake generation dependency list for this directory.
+D:/Program Files/CMake/share/cmake-3.15/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/CheckCXXCompilerFlag.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/CheckCXXSourceCompiles.cmake
+D:/Program Files/CMake/share/cmake-3.15/Modules/CheckSymbolExists.cmake
+D:/spa/Projects/Panalyzr/Lapis 9 6 2019/thirdparty/fmt/CMakeLists.txt
+D:/spa/Projects/Panalyzr/Lapis 9 6 2019/thirdparty/fmt/support/cmake/cxx11.cmake
